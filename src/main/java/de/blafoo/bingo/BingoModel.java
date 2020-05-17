@@ -26,8 +26,11 @@ public class BingoModel {
 				"Zielführend", "Bilateral", "Hut aufhaben", "Wertschätzend", "In die Speichen greifen"));
 
 		// Neue Liste
-		DATA.put("Vorlesungen", Arrays.asList(
-				"Klausur", "klausurrelevant", "Hausaufgabe", "Jetzt hier", "Botschaft"));
+		DATA.put("Flugzeug", Arrays.asList(
+				"Pilot", "Turbine", "Turbulenzen", "Startbahn", 
+				"Flughafen", "Beschleunigung", "Passagiere", "Bremsklappen",
+				"Tragflügel", "Fahrwerk", "Wartung", "Auftrieb", 
+				"Höhe", "Gepäckstücke", "Flugtickets", "Flugbegleiter"));
             }
 	
 	public static List<String> getData(String key) {
