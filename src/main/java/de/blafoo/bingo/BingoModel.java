@@ -29,6 +29,7 @@ public class BingoModel {
 		DATA.put("Vorlesungen", Arrays.asList(
 				"Klausur", "klausurrelevant", "Hausaufgabe", "Jetzt hier", "Botschaft"));
 		
+		//Urlaubsliste
 		DATA.put("Urlaub", Arrays.asList(
 				"Reisebegeisterung", "Vorfreude", "Reisebeginn", "Palmen", 
 				"Hotel", "Meer", "fliegen", "Reisepass",
