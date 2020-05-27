@@ -26,8 +26,11 @@ public class BingoModel {
 				"Zielführend", "Bilateral", "Hut aufhaben", "Wertschätzend", "In die Speichen greifen"));
 
 		// Neue Liste
-		DATA.put("Vorlesungen", Arrays.asList(
-				"Klausur", "klausurrelevant", "Hausaufgabe", "Jetzt hier", "Botschaft"));
+		DATA.put("BMW", Arrays.asList(
+				"M4", "M4 GTS", "M240", "M140", 
+				"M5", "M3", "M3 CS", "M4 CS",
+				"M6", "M6 Gran Coupe", "M8", "M8 Gran Coupe", 
+				"X6M", "X5M", "X4M", "X3M"));
             }
 	
 	public static List<String> getData(String key) {
