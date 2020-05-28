@@ -24,7 +24,21 @@ public class BingoModel {
 				"Global Player", "Kommunizieren", "Kunden-orientiert", "Target",
 				"Problematik", "Proaktiv", "Visionen", "Fokussieren", 
 				"Zielführend", "Bilateral", "Hut aufhaben", "Wertschätzend", "In die Speichen greifen"));
-
+		
+		//  Liste Nachrichten Frühjahr 2020
+        	DATA.put("Nachrichten", Arrays.asList(
+                		"Corona", "Lockdown", "Neue Normalität", "Schule",
+                		"KiTa", "Reproduktionszahl", "Brasilien", "USA",
+                		"Demonstration", "Bundeskanzlerin", "Trump", "Bundesliga",
+                		"Sommerurlaub", "Schlachthof", "Wirtschaft", "Quarantäne"));
+		
+		// Neue Liste
+		DATA.put("Flugzeug", Arrays.asList(
+				"Pilot", "Turbine", "Turbulenzen", "Startbahn", 
+				"Flughafen", "Beschleunigung", "Passagiere", "Bremsklappen",
+				"Tragflügel", "Fahrwerk", "Wartung", "Auftrieb", 
+				"Höhe", "Gepäckstücke", "Flugtickets", "Flugbegleiter"));
+		
 		// Neue Liste
 		DATA.put("BMW", Arrays.asList(
 				"M4", "M4 GTS", "M240", "M140", 
