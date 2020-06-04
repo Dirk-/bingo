@@ -17,11 +17,11 @@ public class AudioPlayer extends Component {
 	public AudioPlayer(String sound, boolean autoPlay) {
 		getElement().setAttribute("id", ID);
 		setSource(sound);
-        getElement().setAttribute("autoplay",autoPlay);
+        getElement().setAttribute("autoplay", autoPlay);
     }
 
     public void setSource(String path) {
-        getElement().setAttribute("src",path);
+        getElement().setAttribute("src", path);
     }
   
 }
