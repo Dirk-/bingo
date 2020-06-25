@@ -10,6 +10,9 @@ import com.vaadin.flow.shared.Registration;
 /**
  * Klasse zum versenden von Push-Nachrichten
  * https://vaadin.com/docs/v14/flow/advanced/tutorial-push-broadcaster.html
+ * 
+ * Wird bei der Bingo App benutzt um die Gewinnbenachrichtigung an andere 
+ * Spieler zu versenden
  */
 public class Broadcaster {
 	
