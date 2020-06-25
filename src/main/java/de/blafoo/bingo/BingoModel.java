@@ -37,7 +37,15 @@ public class BingoModel {
 				"Pilot", "Turbine", "Turbulenzen", "Startbahn", 
 				"Flughafen", "Beschleunigung", "Passagiere", "Bremsklappen",
 				"Tragflügel", "Fahrwerk", "Wartung", "Auftrieb", 
-				"Höhe", "Gepäckstücke", "Flugtickets", "Flugbegleiter"));
+                "Höhe", "Gepäckstücke", "Flugtickets", "Flugbegleiter"));
+                
+        //Urlaubsliste
+        DATA.put("Urlaub", Arrays.asList(
+				"Reisebegeisterung", "Vorfreude", "Reisebeginn", "Palmen", 
+				"Hotel", "Meer", "fliegen", "Reisepass",
+				"Strand", "bräune", "sightseeing", "entspannen", 
+                "Sonne", "Pool", "andere Kultur", "Spaß"));
+                
             }
 	
 	public static List<String> getData(String key) {
