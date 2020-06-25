@@ -44,7 +44,7 @@ public class BingoModel {
 				"Reisebegeisterung", "Vorfreude", "Reisebeginn", "Palmen", 
 				"Hotel", "Meer", "fliegen", "Reisepass",
 				"Strand", "bräune", "sightseeing", "entspannen", 
-                "Sonne", "Pool", "andere Kultur", "Spaß"));
+                "Sonne", "Pool", "andere Kultur", "Spaß" ));
                 
             }
 	
