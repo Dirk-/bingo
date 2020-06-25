@@ -40,6 +40,7 @@ public class BingoModel {
                 "Höhe", "Gepäckstücke", "Flugtickets", "Flugbegleiter"));
                 
         //Urlaubsliste
+        
         DATA.put("Urlaub", Arrays.asList(
 				"Reisebegeisterung", "Vorfreude", "Reisebeginn", "Palmen", 
 				"Hotel", "Meer", "fliegen", "Reisepass",
