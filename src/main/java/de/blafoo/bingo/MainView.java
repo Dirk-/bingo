@@ -54,13 +54,13 @@ public class MainView extends VerticalLayout implements ComponentEventListener<C
 		add(new H6(""));
 		
         // Name des Spielers
-		final TextField spieler = new TextField();
-		spieler.setPlaceholder(name);
-		spieler.setLabel("Gib deinen Namen ein:");
-		spieler.addValueChangeListener(e -> {
-			name = e.getValue();
+		final TextField spielerTextField = new TextField();
+		spielerTextField.setPlaceholder(name);
+		spielerTextField.setLabel("Gib deinen Namen ein:");
+		spielerTextField.addValueChangeListener(event -> {
+			name = event.getValue();
 		});
-		add(spieler);
+		add(spielerTextField);
         
         // Bingo-Tableau
 		createBingoGrid(this);
@@ -72,7 +72,7 @@ public class MainView extends VerticalLayout implements ComponentEventListener<C
      */
     private void createBingoGrid(VerticalLayout parent) {
 
-		List<String> data = BingoModel.getData("Flugzeug");
+		List<String> data = BingoModel.getData("Nachrichten");
 		Collections.shuffle(data); 
 		
 		HorizontalLayout layout = new HorizontalLayout();
