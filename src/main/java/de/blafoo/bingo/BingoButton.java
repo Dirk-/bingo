@@ -9,7 +9,8 @@ import com.vaadin.flow.component.icon.VaadinIcon;
 
 /**
  * Erweiterung des normalen Buttons zur Darstellung verschiedener Zustände
- *
+ * Button hat beim Starten die normale Farbe
+ * Beim Aulösen eines ClickEvents wird der Button blau und ein Daumen-Emote erscheint
  */
 public class BingoButton extends Button {
 	
