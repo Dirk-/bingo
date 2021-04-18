@@ -26,11 +26,11 @@ public class BingoModel {
 				"Zielführend", "Bilateral", "Hut aufhaben", "Wertschätzend", "In die Speichen greifen"));
 		
 		//  Liste Nachrichten Frühjahr 2020
-        	DATA.put("Nachrichten", Arrays.asList(
-                		"Corona", "Lockdown", "Neue Normalität", "Schule",
-                		"KiTa", "Reproduktionszahl", "Brasilien", "USA",
-                		"Demonstration", "Bundeskanzlerin", "Trump", "Bundesliga",
-                		"Sommerurlaub", "Schlachthof", "Wirtschaft", "Quarantäne"));
+        DATA.put("Nachrichten", Arrays.asList(
+                "Corona", "Lockdown", "Neue Normalität", "Schule",
+                "KiTa", "Reproduktionszahl", "Brasilien", "USA",
+                "Demonstration", "Bundeskanzlerin", "Trump", "Bundesliga",
+                "Sommerurlaub", "Schlachthof", "Wirtschaft", "Quarantäne"));
 		
 		// Neue Liste
 		DATA.put("Flugzeug", Arrays.asList(
@@ -39,8 +39,7 @@ public class BingoModel {
 				"Tragflügel", "Fahrwerk", "Wartung", "Auftrieb", 
                 "Höhe", "Gepäckstücke", "Flugtickets", "Flugbegleiter"));
                 
-        //Urlaubsliste
-        
+        //Urlaubsliste        
         DATA.put("Urlaub", Arrays.asList(
 				"Reisebegeisterung", "Vorfreude", "Reisebeginn", "Palmen", 
 				"Hotel", "Meer", "fliegen", "Reisepass",

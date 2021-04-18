@@ -72,7 +72,7 @@ public class MainView extends VerticalLayout implements ComponentEventListener<C
      */
     private void createBingoGrid(VerticalLayout parent) {
 
-		List<String> data = BingoModel.getData("Nachrichten");
+		List<String> data = BingoModel.getData("Besprechungen");
 		Collections.shuffle(data); 
 		
 		HorizontalLayout layout = new HorizontalLayout();
